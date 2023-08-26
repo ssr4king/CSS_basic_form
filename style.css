@@ -1,0 +1,53 @@
+ /* combination selctor  */
+p , a {
+    color:green; 
+ }
+  /* element selector  */
+ tr {
+    list-style-type:none;
+ }
+  /* class selector  */
+  .special{
+    color: chocolate;
+    font-weight: bold;
+  }
+   span.special{
+    color:brown ;
+    font-weight: bold;
+   }
+    /* Descendant cobinator selector  */
+    td em{
+         color: rebeccapurple;
+    }
+    /*  Adjacent sibling combinator  */
+      h1+h2{
+        font-size: 200%;
+      }
+        /*  pseudo class selector  */
+        a:hover{
+            color: yellow ;
+            text-decoration:none;
+        }
+        body h1+h2 .special {
+            color: yellow;
+            background-color: black;
+            padding: 5px;
+        }
+         /*  id  selector  */
+         #heading{
+            color: red;
+            background-color: bisque;
+         }
+          /*  Attribute  selector  */
+          th[class]{
+            font-size: 150%; 
+          }
+    
+
+
+
+      
+
+
+   
+ 
